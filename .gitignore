@@ -1,0 +1,10 @@
+*.synctex.gz
+*.xdv
+.DS_Store
+*.pdf
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.aux
+__latexindent_temp.tex
