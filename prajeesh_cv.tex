@@ -60,9 +60,10 @@ Research scientist specialised in climate model development. Over 7+ years of ex
 \begin{outline}
     \1 \textsc{Earth System Model (\,IITM-ESM)\, Development}
         \2 Development of a new spectral dynamical core for IITM-ESM which enables a 2D domain decomposition in both spectral and the grid point domain, significantly improving the scalability and throughput. Parallel FFT is implemented by the FFTW library followed by a parallel Legendre transform.
-        \2 Development of a parallel I/O manager using Netcdf-Fortran which provide a simple and efficient way to get diagnostic outputs and to override data of a model field from a Netcdf file.
         \2 Solving the top of the atmosphere radiation imbalance in IITM-ESM. Energy budget calculations were performed for every process in the model to narrow down the source of errors and appropriate changes were made to fix the errors.
+        \2 Developed a framework for creating perturbed initial condtions for conducting targeted large ensemble climate sensitivity experiments and forecast runs.
         \2 Implemented a fractional grid for computing surface fluxes and resolved the inconsistency in the surface flux computation and flux-transfer over the sea-ice and land-ocean boundaries, which resulted in significant improvements in the sea-ice simulations.
+        \2 Development of a parallel I/O manager using Netcdf-Fortran which provide a simple and efficient way to get diagnostic outputs and to override data of a model field from a Netcdf file.
         \2 Implemented concurrent coupling using FMS coupler to increase the throughput of the model.
         \2 Implementing a low resolution version of IITM-ESM.
         \2 Porting of model code to different HPC environments.
@@ -70,10 +71,9 @@ Research scientist specialised in climate model development. Over 7+ years of ex
         \2 Developing post-processing software necessary for CMIP6 data requirements.
         \2 Implementing CMIP6 input forcing such as aerosols and land-use land-cover data for IITM-ESM.
         \2 Implementing workflow for various CMIP6 experiments and data processing.
-    \1 \textsc{Improving GFSv14 model for short range weather prediction}
-        \2 Developing a high resolution (~ 5 km) version of GFSv14 for improving the short range forecast.
-        \2 Coupling GFSv14 with Ocean model for investigating the predictability of cyclones and depression in short range forecasts.
-        \2 Implementing Triangular-Cubic-Octahedral (TCO) grid and a revised horizontal diffusion scheme for GFSv14 to improve the efficiency and forecast skill of the model.
+    \1 \textsc{Short range weather prediction}
+        \2 Developing a high resolution (~5 km) short range forecast system based of GFSv14 with a new Triangular-Cubic-Octahedral (TCO) grid and revised horizontal diffusion scheme.
+        \2 Coupling GFSv14 with Ocean model for investigating the predictability of cyclones and depression over short and extended range forecasts.
 % \pagebreak
     \1 \textsc{ODTM development}
         \2 ODTM is an isopycnal reduced gravity dynamics-thermodynamic model for the tropical oceans. The MPI parallelisation of the model was developed using the FMS (Flexible Modelling System).
@@ -183,6 +183,7 @@ Dissertation: ”Effect of tidal currents on wind waves in the Gulf of Kutch reg
     \item Ayantika DC, Krishnan R, Singh M, Swapna P, Sandeep N, \textbf{Prajeesh AG}, Vellore R. Understanding the combined effects of global warming and anthropogenic aerosol forcing on the South Asian monsoon. Climate Dynamics. 2021 Mar;56(5):1643-62.
     \item Krishnan R, Swapna P, Vellore R, Narayanasetti S, \textbf{Prajeesh AG}, Choudhury AD, Singh M, Sabin TP, Sanjay J. The IITM earth system model (ESM): development and future roadmap. InCurrent Trends in the Representation of Physical Processes in Weather and Climate Models 2019 (pp. 183-195). Springer, Singapore.
     \item Singh M, Krishnan R, Goswami B, Choudhury AD, Swapna P, Vellore R, \textbf{Prajeesh AG}, Sandeep N, Venkataraman C, Donner RV, Marwan N. Fingerprint of volcanic forcing on the ENSO–Indian monsoon coupling. Science advances. 2020 Sep 1;6(38):eaba8164.
+    \item Terray, P., K.P. Sooraj, S. Masson, R.P.M. Krishna, G. Samson and \textbf{AG Prajeesh} (2018) "Towards a realistic simulation of boreal summer tropical rainfall climatology in state-of-the art coupled models : role of the background snow-free albedo", Climate Dynamics, Vol. 50: 3413–3439
 \end{itemize}
 
 \end{document}
