@@ -50,6 +50,7 @@
 
 - **Thesis:** Indian Ocean Dipole variations in a warming climate and associated linkages to monsoon and marine primary productivity ([pdf](https://drive.google.com/file/d/1uu5Fxata_17mpxoEaaS8lyQq8gBM60pv/view?usp=drive_link))
 - Used advanced statistical techniques such as cross-correlations, principal component analysis, significance tests and anomaly composites
+- Course work: Atmosperic Circulation, Climate Modelling, Atmospheric Physics and Thermodynamics
 
 ## Cochin University of Science and Technology, MSc in Physical Oceanography
 
