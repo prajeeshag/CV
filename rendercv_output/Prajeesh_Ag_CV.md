@@ -22,7 +22,7 @@
 - Jan. 2020 to Dec. 2022 
 - Pune, India 
 - Developed a novel spectral dynamical core for the atmospheric model of [IITM-ESM](http://cccr.tropmet.res.in/home/clim_esm_one.jsp), enabling 2D domain decomposition in both spectral and grid point domains using FFTW library. This innovation significantly enhances scalability and throughput of the Model
-- Developed a high resolution (6km) global forecast model using TCO grid for Short Range Forecasting
+- Developed a high resolution (6km) global forecast model ([HGFM](https://srf.tropmet.res.in/srf/hgfm/)) using TCO grid for Short Range Forecasting
 - Implemented MPI parallelisation in Ocean Dynamics Thermodynamic Model [ODTM](https://www.valsala-orl.net/ODTM.htm), which improved the throughput of the model upto 30 times
 - Supervised a team of 3-4 scientists working on IITM-ESM development
 
@@ -72,5 +72,5 @@
 - Others: Linux OS, Git, GitHub, Workflow automation
 # Publications
 
-For a comprehensive list of my academic publications, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=DnkY2gIAAAAJ&hl=en)
+For a list of my academic publications, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=DnkY2gIAAAAJ&hl=en)
 
