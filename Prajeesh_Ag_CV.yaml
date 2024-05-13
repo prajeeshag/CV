@@ -1,0 +1,140 @@
+cv:
+  name: Prajeesh Ag
+  location: KAUST, Jeddah, KSA
+  email: prajeeshag@gmail.com
+  phone: tel:+91-705-725-37-78
+  # website: https://yourwebsite.com/
+  social_networks:
+    - network: LinkedIn
+      username: prajeeshag
+    - network: GitHub
+      username: prajeeshag
+  sections:
+    experience:
+      - company: Climate Change Center, KAUST
+        position: Research Specialist
+        location: Jeddah, KSA
+        start_date: 2023-01
+        # end_date: 2004-08
+        highlights:
+          - Developed a regional coupled climate model for subseasonal to seasonal scale prediction over Arabian Peninsula region.
+            WRF and MITgcm were coupled using ESMF coupler
+          - Developed CLI preprocessing utility in Python for generating and manipulating input data for the coupled model
+          - Implemented seasonal pediction system for Arabian Peninsula region. 
+            A fault tolerant automated workflow for a 50 ensemble system is developed using Cylc workflow engine
+
+      - company: Indian Institute of Tropical Meteorology
+        position: Scientist-D
+        location: Pune, India
+        start_date: 2020-01
+        end_date: 2022-12
+        highlights:
+          - Developed a novel spectral dynamical core for the atmospheric model of [IITM-ESM](http://cccr.tropmet.res.in/home/clim_esm_one.jsp), 
+            enabling 2D domain decomposition in both spectral and grid point domains using FFTW library. 
+            This innovation significantly enhances scalability and throughput of the Model
+          - Developed a high resolution (6km) global forecast model using TCO grid for Short Range Forecasting
+          - Implemented MPI parallelisation in Ocean Dynamics Thermodynamic Model [ODTM](https://www.valsala-orl.net/ODTM.htm),
+            which improved the throughput of the model upto 30 times
+          - Supervised a team of 3-4 scientists working on IITM-ESM development 
+
+      - company: Indian Institute of Tropical Meteorology
+        position: Scientist-C
+        location: Pune, India
+        start_date: 2016-01
+        end_date: 2019-12
+        highlights:
+          - Development of a easy to use and modular I/O manager for IITM-ESM using the OOP capabilities of mordern Fortran and NetCDF4
+          - Implemented fractional grid for surface flux computation, resolving inconsistencies in flux-transfer 
+            over sea-ice and land-ocean boundaries. Significantly improved sea-ice simulations as a result [(Swapna et al., 2018)](https://doi.org/10.1029/2017MS001262). 
+          - Developed post-processing softwares in Python, C and Fortran using NetCDF4 and GRIB libraries
+
+      - company: Indian Institute of Tropical Meteorology
+        position: Scientist-B
+        location: Pune, India
+        start_date: 2013-01
+        end_date: 2015-12
+        highlights:
+          - Implemented concurrent coupling using FMS coupler to increase the throughput of the IITM-ESM model
+          - Identified memory leak issues in the IITM-ESM using Valgrind and fixed it
+          - Did performance analysis of IITM-ESM using Allinea MAP and identified bottle necks
+
+    education:
+      - institution: University of Pune
+        area: Atmospheric Science
+        degree: PhD
+        start_date: 2018-04
+        end_date: 2024-03
+        highlights:
+          - '**Thesis:** Indian Ocean Dipole variations in a warming climate and associated linkages to monsoon and marine primary productivity
+            ([pdf](https://drive.google.com/file/d/1uu5Fxata_17mpxoEaaS8lyQq8gBM60pv/view?usp=drive_link))'
+          - Used advanced statistical techniques such as cross-correlations, principal component analysis, significance tests and anomaly composites
+    
+      - institution: Cochin University of Science and Technology
+        area: Physical Oceanography
+        degree: MSc
+        start_date: 2008-05
+        end_date: 2010-04
+        highlights:
+          - 'Main subjects: Fluid Dynamics, Ocean Circulation, Numerical Modelling of Ocean'
+
+    additional_experience_and_awards:
+      - label: Instructor (2015 - 2022)
+        details: Taught Computer Application for Climate Science course.
+      - label: Web Development
+        details: Developed a football tournament web application using Django web framework with the facility of team and player 
+                 registration, player transfer, match scheduler, on-ground score and match details entering, 
+                 player and team statistics, and dynamic standings table
+      - label: JRF-Fellowship, UGC-CSIR
+        details: Awarded JRF Fellowship from UGC-CSIR
+        
+    technologies:
+      - label: Languages
+        details: Fortran (proficient), Python (proficient), Bash (proficient), C (Familiar), JavaScript (Prior Experience)
+      - label: Data Formats
+        details: NetCDF4, GRIB1/2, JSON, XML, Binary, ASCII, YAML
+      - label: High performance computing
+        details: Job Schedulers (Slurm, PBS, LSF), Parallel Programming (MPI, OpenMP)
+      - label: Data processing and Visualization 
+        details: CDO, NCO, Matplotlib, Cartopy, Xarray, Pandas, Iris.cube, NCL
+      - label: Others
+        details: Linux OS, Git, GitHub, Workflow automation
+
+    publications: 
+      - "For a comprehensive list of my academic publications, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=DnkY2gIAAAAJ&hl=en)"
+
+design:
+  theme: classic
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30 pt
+  text_alignment: justified
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  show_timespan_in:
+    - Experience
