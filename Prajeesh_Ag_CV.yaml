@@ -98,7 +98,7 @@ cv:
       - label: Data processing and Visualization 
         details: CDO, NCO, Matplotlib, Cartopy, Xarray, Pandas, Iris.cube, NCL
       - label: Others
-        details: Linux OS, Git, GitHub, Workflow automation
+        details: Linux OS, Git, GitHub, Workflow automation, Debuggers and Profilers
 
     publications: 
       - "For a list of my academic publications, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=DnkY2gIAAAAJ&hl=en)"

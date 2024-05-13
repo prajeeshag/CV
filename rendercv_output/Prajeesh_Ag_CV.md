@@ -69,7 +69,7 @@
 - Data Formats: NetCDF4, GRIB1/2, JSON, XML, Binary, ASCII, YAML
 - High performance computing: Job Schedulers (Slurm, PBS, LSF), Parallel Programming (MPI, OpenMP)
 - Data processing and Visualization: CDO, NCO, Matplotlib, Cartopy, Xarray, Pandas, Iris.cube, NCL
-- Others: Linux OS, Git, GitHub, Workflow automation
+- Others: Linux OS, Git, GitHub, Workflow automation, Debuggers and Profilers
 # Publications
 
 For a list of my academic publications, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=DnkY2gIAAAAJ&hl=en)
