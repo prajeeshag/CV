@@ -138,5 +138,5 @@ design:
       vertical_between_name_and_connections: 0.3 cm
       bottom: 0.3 cm
       horizontal_between_connections: 0.5 cm
-  show_timespan_in:
-    - Experience
+  # show_timespan_in:
+  # - Experience
