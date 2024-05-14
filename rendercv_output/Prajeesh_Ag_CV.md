@@ -13,34 +13,38 @@
 
 - Jan. 2023 to present 
 - Jeddah, KSA 
-- Developed a regional coupled climate model for subseasonal to seasonal scale prediction over Arabian Peninsula region. WRF and MITgcm were coupled using ESMF coupler
-- Developed CLI preprocessing utility in Python for generating and manipulating input data for the coupled model
-- Implemented seasonal pediction system for Arabian Peninsula region. A fault tolerant automated workflow for a 50 ensemble system is developed using Cylc workflow engine
+- Developed a regional coupled climate model tailored for subseasonal to seasonal scale forecasting across the Arabian Peninsula region. Integrated WRF and MITgcm through ESMF coupler, optimizing performance and accuracy
+- Crafted a Command-Line Interface (CLI) preprocessing utility in Python, streamlining data generation, manipulation and visualization for the coupled model, enhancing efficiency and ease of use
+- Orchestrated a fault-tolerant automated workflow, leveraging Cylc workflow engine to manage a 50-member ensemble system for seasonal prediction over the Arabian Peninsula
 
 ## Indian Institute of Tropical Meteorology, Scientist-D
 
 - Jan. 2020 to Dec. 2022 
 - Pune, India 
-- Developed a novel spectral dynamical core for the atmospheric model of [IITM-ESM](http://cccr.tropmet.res.in/home/clim_esm_one.jsp), enabling 2D domain decomposition in both spectral and grid point domains using FFTW library. This innovation significantly enhances scalability and throughput of the Model
-- Developed a high resolution (6km) global forecast model ([HGFM](https://srf.tropmet.res.in/srf/hgfm/)) using TCO grid for Short Range Forecasting
-- Implemented MPI parallelisation in Ocean Dynamics Thermodynamic Model [ODTM](https://www.valsala-orl.net/ODTM.htm), which improved the throughput of the model upto 30 times
-- Supervised a team of 3-4 scientists working on IITM-ESM development
+- Pioneered a groundbreaking spectral dynamical core for the atmospheric model of [IITM-ESM](http://cccr.tropmet.res.in/home/clim_esm_one.jsp), enabling 2D domain decomposition in both spectral and grid point domains using FFTW library. This innovation vastly improved scalability and throughput.
+- Engineered a high-resolution (6km) global forecast model ([HGFM](https://srf.tropmet.res.in/srf/hgfm/)) for Short Range Forecasting by implementing a novel TCO grid in  the GFS model TCO grid, enhancing prediction accuracy and resolution.
+- Implemented MPI parallelization in the Ocean Dynamics Thermodynamic Model ([ODTM](https://www.valsala-orl.net/ODTM.htm)), boosting model throughput by up to 30 times, thus accelerating simulations and analysis.
+- Investigated Monsoon, IOD, and ENSO phenomena, employing CMIP6 data to elucidate interactions and feedback mechanisms, with publications in peer-reviewed journals
+- Directed a team of 3-4 scientists in the development and enhancement of IITM-ESM, overseeing project milestones and ensuring alignment with research objectives.
 
 ## Indian Institute of Tropical Meteorology, Scientist-C
 
 - Jan. 2016 to Dec. 2019 
 - Pune, India 
-- Development of a easy to use and modular I/O manager for IITM-ESM using the OOP capabilities of mordern Fortran and NetCDF4
-- Implemented fractional grid for surface flux computation, resolving inconsistencies in flux-transfer over sea-ice and land-ocean boundaries. Significantly improved sea-ice simulations as a result [(Swapna et al., 2018)](https://doi.org/10.1029/2017MS001262).
-- Developed post-processing softwares in Python, C and Fortran using NetCDF4 and GRIB libraries
+- Managed and oversaw the CMIP6 experiments conducted with IITM-ESM.
+- Orchestrated production workflows essential for CMIP6 simulations of IITM-ESM on High-Performance Computing (HPC) systems
+- Architected an intuitive and modular I/O manager for IITM-ESM, harnessing modern Fortran's Object-Oriented Programming (OOP) capabilities alongside NetCDF4, facilitating data handling and interoperability.
+- Spearheaded the implementation of fractional grid for surface flux computation, resolving flux-transfer inconsistencies over sea-ice and land-ocean boundaries. This enhancement significantly bolstered sea-ice simulations ([Swapna et al., 2018](https://doi.org/10.1029/2017MS001262)).
+- Developed post-processing software in Python, C, and Fortran, leveraging NetCDF4 and GRIB libraries to streamline data analysis and visualization workflows.
+- Conducted climate change analysis, contributing to understanding of anthropogenic influences on climate dynamics
 
 ## Indian Institute of Tropical Meteorology, Scientist-B
 
 - Jan. 2013 to Dec. 2015 
 - Pune, India 
-- Implemented concurrent coupling using FMS coupler to increase the throughput of the IITM-ESM model
-- Identified memory leak issues in the IITM-ESM using Valgrind and fixed it
-- Did performance analysis of IITM-ESM using Allinea MAP and identified bottle necks
+- Engineered concurrent coupling using FMS coupler to enhance the throughput of the IITM-ESM model, optimizing resource utilization and computational efficiency.
+- Identified and resolved memory leak issues in the IITM-ESM using Valgrind, ensuring model stability and reliability.
+- Conducted comprehensive performance analysis of IITM-ESM using Allinea MAP, pinpointing and addressing bottlenecks to optimize overall performance and efficiency.
 
 # Education
 
@@ -49,27 +53,28 @@
 - Apr. 2018 to Mar. 2024 
 
 - **Thesis:** Indian Ocean Dipole variations in a warming climate and associated linkages to monsoon and marine primary productivity ([pdf](https://drive.google.com/file/d/1uu5Fxata_17mpxoEaaS8lyQq8gBM60pv/view?usp=drive_link))
+- **Course work**: Earth System Sciences and Climate, Physics & Chemistry of Atmosphere, Weather, Climate & General Circulation, Geophysical Fluid Dynamics, Statistical Methods, Large scale Air-sea Interaction, Observational Techniques
 - Used advanced statistical techniques such as cross-correlations, principal component analysis, significance tests and anomaly composites
-- Course work: Atmosperic Circulation, Climate Modelling, Atmospheric Physics and Thermodynamics
 
 ## Cochin University of Science and Technology, MSc in Physical Oceanography
 
 - May 2008 to Apr. 2010 
 
-- Main subjects: Fluid Dynamics, Ocean Circulation, Numerical Modelling of Ocean
+- **Main Subjects**: Physical Oceanography, Ocean Observation, Coastal and Estuarine Oceanography, Computer Programming, Ocean Modelling, Ocean Engineering
+- **Marks**: 7.84/10 ([Transcript](https://drive.google.com/file/d/1JtgcZ-QKGGMSRh5QYlB2VVaN0zkppxM5/view?usp=sharing))
 
 # Additional Experience And Awards
 
 - Instructor (2015 - 2022): Taught Computer Application for Climate Science course.
 - Web Development: Developed a football tournament web application using Django web framework with the facility of team and player registration, player transfer, match scheduler, on-ground score and match details entering, player and team statistics, and dynamic standings table
 - JRF-Fellowship, UGC-CSIR: Awarded JRF Fellowship from UGC-CSIR
-# Technologies
+# Skills
 
 - Languages: Fortran (proficient), Python (proficient), Bash (proficient), C (Familiar), JavaScript (Prior Experience)
 - Data Formats: NetCDF4, GRIB1/2, JSON, XML, Binary, ASCII, YAML
-- High performance computing: Job Schedulers (Slurm, PBS, LSF), Parallel Programming (MPI, OpenMP)
+- High performance computing: Parallel Programming (MPI, OpenMP), Job Schedulers (Slurm, PBS, LSF)
 - Data processing and Visualization: CDO, NCO, Matplotlib, Cartopy, Xarray, Pandas, Iris.cube, NCL
-- Others: Linux OS, Git, GitHub, Workflow automation, Debuggers and Profilers
+- Software Libraries and Tools: Linux OS, Git, GitHub, Cylc Workflow Engine, Debuggers and Profilers, [Earth System Modeling Framework](https://earthsystemmodeling.org/), [Flexible Modeling System](https://www.gfdl.noaa.gov/fms/), [FFTW](https://www.fftw.org/)
 # Publications
 
 For a list of my academic publications, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=DnkY2gIAAAAJ&hl=en)
