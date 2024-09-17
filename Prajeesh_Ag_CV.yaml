@@ -3,7 +3,7 @@ cv:
   location: KAUST, Jeddah, KSA
   email: prajeeshag@gmail.com
   phone: tel:+966-568764948
-  # website: https://yourwebsite.com/
+  website: https://prajeesh-ag.com/
   social_networks:
     - network: LinkedIn
       username: prajeeshag
@@ -92,10 +92,10 @@ cv:
         details: CDO, NCO, Matplotlib, Cartopy, Xarray, Numpy, Iris, NCL
 
       - label: Software Libraries and Tools
-        details: Git, GitHub CI, Sphinx documentation, Django Web Framework, Pytest, Cylc Workflow Engine, Debuggers and Profilers, [Earth System Modeling Framework](https://earthsystemmodeling.org/), [Flexible Modeling System](https://www.gfdl.noaa.gov/fms/), [FFTW](https://www.fftw.org/), [WRF model](https://www.mmm.ucar.edu/models/wrf), [MITgcm](https://mitgcm.readthedocs.io/en/latest/), [Modular Ocean Model](https://www.gfdl.noaa.gov/mom-ocean-model/)
+        details: Git, GitHub CI, Django Web Framework, Pytest, Cylc Workflow Engine, Debuggers and Profilers, [Earth System Modeling Framework](https://earthsystemmodeling.org/), [Flexible Modeling System](https://www.gfdl.noaa.gov/fms/), [FFTW](https://www.fftw.org/), [WRF model](https://www.mmm.ucar.edu/models/wrf), [MITgcm](https://mitgcm.readthedocs.io/en/latest/), [Modular Ocean Model](https://www.gfdl.noaa.gov/mom-ocean-model/)
 
     projects:
-      - name: "[ Clios - prajeeshag.github.io/clios](https://prajeeshag.github.io/clios/)"
+      - name: "[ Clios - prajeeshag.github.io/clios](https://clios.prajeesh-ag.com/)"
         highlights:
           - "**Clios** is a python library to create chainable Command-Line Operators."
           - It is a library to create  [CDO](https://code.mpimet.mpg.de/projects/cdo/wiki/Tutorial) like application in Python.
