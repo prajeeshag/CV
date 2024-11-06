@@ -80,13 +80,13 @@ cv:
 
     skills:
       - label: Languages
-        details: Fortran (proficient), Python (proficient), Bash (proficient), C (Familiar), JavaScript (Prior Experience)
+        details: Fortran, Python, C, JavaScript, Bash
 
       - label: Data Formats
-        details: NetCDF4, GRIB1/2, JSON, XML, Binary, ASCII, YAML
+        details: NetCDF4, Zarr, GRIB1/2, JSON, XML, Binary, ASCII, YAML
 
       - label: High performance computing
-        details: Parallel Programming (MPI, OpenMP), Job Schedulers (Slurm, PBS, LSF)
+        details: Parallel Programming (MPI, OpenMP), Dask, Job Schedulers (Slurm, PBS, LSF)
 
       - label: Data processing and Visualization
         details: CDO, NCO, Matplotlib, Cartopy, Xarray, Numpy, Iris, NCL
@@ -95,7 +95,7 @@ cv:
         details: Git, GitHub CI, Django Web Framework, Pytest, Cylc Workflow Engine, Debuggers and Profilers, [Earth System Modeling Framework](https://earthsystemmodeling.org/), [Flexible Modeling System](https://www.gfdl.noaa.gov/fms/), [FFTW](https://www.fftw.org/), [WRF model](https://www.mmm.ucar.edu/models/wrf), [MITgcm](https://mitgcm.readthedocs.io/en/latest/), [Modular Ocean Model](https://www.gfdl.noaa.gov/mom-ocean-model/)
 
     open source projects:
-      - name: "[ Clios - prajeeshag.github.io/clios](https://clios.prajeesh-ag.com/)"
+      - name: "[ Clios - clios.prajeesh-ag.com](https://clios.prajeesh-ag.com/)"
         highlights:
           - "**Clios** is a python library to create chainable Command-Line Operators."
           - It is a library to create  [CDO](https://code.mpimet.mpg.de/projects/cdo/wiki/Tutorial) like application in Python.
