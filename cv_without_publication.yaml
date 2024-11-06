@@ -94,7 +94,7 @@ cv:
       - label: Software Libraries and Tools
         details: Git, GitHub CI, Django Web Framework, Pytest, Cylc Workflow Engine, Debuggers and Profilers, [Earth System Modeling Framework](https://earthsystemmodeling.org/), [Flexible Modeling System](https://www.gfdl.noaa.gov/fms/), [FFTW](https://www.fftw.org/), [WRF model](https://www.mmm.ucar.edu/models/wrf), [MITgcm](https://mitgcm.readthedocs.io/en/latest/), [Modular Ocean Model](https://www.gfdl.noaa.gov/mom-ocean-model/)
 
-    projects:
+    open source projects:
       - name: "[ Clios - prajeeshag.github.io/clios](https://clios.prajeesh-ag.com/)"
         highlights:
           - "**Clios** is a python library to create chainable Command-Line Operators."
@@ -102,16 +102,9 @@ cv:
           - In this project, I used test-driven development, implemented automated documentation, and set up GitHub CI for automated testing and documentation building.
           - Applied design patterns such as composite and strategy to structure the code effectively.
 
-      - name: Web Developement using Django
-        highlights:
-          - Developed a football tournament web application using Django web framework with the facility of team and player registration, player transfer, match scheduler, on-ground score and match details entering, player and team statistics, and dynamic standings table
-
     additional_experience_and_awards:
       - label: Instructor (2015 - 2022)
         details: Taught Computer Application for Climate Science course at Indian Institute of Tropical Meteorology, Pune.
-
-    publications:
-      - "For a list of my academic publications, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=DnkY2gIAAAAJ&hl=en)"
 
 design:
   theme: classic
