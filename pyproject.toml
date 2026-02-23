@@ -1,0 +1,10 @@
+[project]
+name = "cv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "bibtexparser>=1.4.4",
+    "rendercv[all,full]>=2.6",
+]

@@ -1,2 +1,2 @@
-rendercv
+rendercv[full]
 bibtexparser
