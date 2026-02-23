@@ -15,12 +15,12 @@ for entry in bib_database.entries:
     authors = entry.get('author').split(' and ')  # Split authors by 'and' in BibTeX format
     date = entry.get('year')
     journal = entry.get('journal')
-    
+
     for i, author in enumerate(authors):
         authors[i] = author.strip()
         if 'prajeesh' in author.lower():
             authors[i] = f'**{author}**'
-    
+
     # Format for rendercv
     publication_entry = {
         'title': title.strip('{}'),  # Remove braces around title if present
@@ -33,11 +33,10 @@ for entry in bib_database.entries:
 publication_entries = sorted(publication_entries, key=lambda x: x['date'], reverse=True)
 
 # Output to YAML format
-with open('cv_without_publication.yaml', 'r') as yaml_file:
+with open('CV.yaml', 'r') as yaml_file:
     main_cv = yaml.load(yaml_file)
 
 main_cv['cv']['sections']['publications'] = publication_entries
 print(main_cv)
 with open('Prajeesh_Ag_CV.yaml', 'w') as yaml_file:
     yaml.dump(main_cv, yaml_file)
-    
