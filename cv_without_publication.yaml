@@ -1,8 +1,8 @@
 cv:
   name: Prajeesh Ag
-  location: KAUST, Jeddah, KSA
+  location: Kochi, Kerala
   email: prajeeshag@gmail.com
-  phone: tel:+966-568764948
+  phone: tel:+91-7057253778
   website: https://prajeesh-ag.com/
   social_networks:
     - network: LinkedIn
@@ -13,10 +13,19 @@ cv:
   sections:
     experience:
       - company: Climate Change Center, KAUST
+        position: Remote Research Consultant
+        location: Jeddah, KSA
+        start_date: 2025-07
+        # end_date: 2004-08
+        highlights:
+          - Design and maintain fault-tolerant operational workflows for multiple weather, climate, and ocean prediction systems over the Arabian Peninsula.
+          - Implement and manage a global coupled ocean–atmosphere model with a high-resolution zoomed grid focused on the Arabian Peninsula.
+
+      - company: Climate Change Center, KAUST
         position: Research Specialist
         location: Jeddah, KSA
         start_date: 2023-01
-        # end_date: 2004-08
+        end_date: 2025-06
         highlights:
           - Developed a regional coupled climate model for seasonal scale forecasting across the Arabian Peninsula region. Integrated WRF and MITgcm through ESMF coupler, optimizing performance and accuracy
           - Created a Python Command-Line Interface (CLI) tool to simplify data generation, manipulation, and visualization for the model, making the process more efficient and user-friendly.
@@ -28,8 +37,8 @@ cv:
         start_date: 2020-01
         end_date: 2022-12
         highlights:
+          - Developed a high-resolution (6km) global forecast model, now known as the ([BFS](https://srf.tropmet.res.in/srf/hgfm/)) for Short Range Forecasting by implementing a novel TCO grid, enhancing prediction accuracy and resolution ([Phani et al., 2024](https://doi.org/10.5194/gmd-2024-89)).
           - Developed a new spectral dynamical core ([Spec2d](https://github.com/prajeeshag/spec2d)) for the atmospheric model of [IITM-ESM](http://cccr.tropmet.res.in/home/clim_esm_one.jsp). Used non-blocking MPI communications, distributed array traspose and FFT capabilities of FFTW library to enable efficient 2D domain decomposition. This vastly improved scalability and throughput.
-          - Developed a high-resolution (6km) global forecast model ([HGFM](https://srf.tropmet.res.in/srf/hgfm/)) for Short Range Forecasting by implementing a novel TCO grid, enhancing prediction accuracy and resolution ([Phani et al., 2024](https://doi.org/10.5194/gmd-2024-89)).
           - Implemented MPI parallelization in the Ocean Dynamics Thermodynamic Model ([ODTM](https://www.valsala-orl.net/ODTM.htm)), boosting model throughput by up to 30 times, thus accelerating simulations and analysis.
           - Investigated Monsoon, IOD, and ENSO phenomena, employing CMIP6 data to explore the interactions and feedback mechanisms, with publications in peer-reviewed journals
           - Lead a team of 3-4 scientists in developing and enhancing IITM-ESM, overseeing project milestones and ensuring alignment with research objectives.
